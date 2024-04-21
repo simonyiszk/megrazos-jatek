@@ -2480,10 +2480,6 @@
 		(uuid "9ad37451-4d9f-4f65-a36e-92058d5f7a9f")
 	)
 	(no_connect
-		(at 163.83 92.71)
-		(uuid "9c1e1ab3-2371-4fcd-9eca-edae35514f77")
-	)
-	(no_connect
 		(at 180.34 82.55)
 		(uuid "abc34a33-b43c-4dc7-b1e5-e8f673efe0ca")
 	)
@@ -2498,6 +2494,10 @@
 	(no_connect
 		(at 180.34 113.03)
 		(uuid "e4ea5f2d-690c-4468-b320-b186c1d055cc")
+	)
+	(no_connect
+		(at 180.34 92.71)
+		(uuid "e7192b73-2f4e-44e6-9aa9-049889dd4af8")
 	)
 	(no_connect
 		(at 190.5 72.39)
@@ -2732,16 +2732,6 @@
 			(type default)
 		)
 		(uuid "5babc775-c7ec-448e-b976-e243dea6ba0d")
-	)
-	(wire
-		(pts
-			(xy 163.83 92.71) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "663792a6-bf76-45f1-8561-935e931fd695")
 	)
 	(wire
 		(pts
@@ -3093,7 +3083,7 @@
 		)
 		(uuid "fd80d5ea-29a5-4c20-af24-5294ebff3e6a")
 	)
-	(text "TODO-k:\n- TP-khez megfelelő footprintet / csatlakozót hozzárendelni\n- LCD bekötését ellenőrizni, hiány vonalakat hozzáadni"
+	(text "TODO-k:\n- TP-khez megfelelő footprintet / csatlakozót hozzárendelni\n- LCD bekötését ellenőrizni, hiányzó vonalakat hozzáadni"
 		(exclude_from_sim no)
 		(at 83.058 128.778 0)
 		(effects
@@ -3114,17 +3104,6 @@
 			(justify left bottom)
 		)
 		(uuid "01c4160e-52eb-405e-b10d-c0f1f4f3ca8d")
-	)
-	(label "???"
-		(at 163.83 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05ba84f7-6ce3-4821-98b7-84113b57a6d4")
 	)
 	(label "MOSI_11_PWM_PB3"
 		(at 121.92 110.49 0)
@@ -4229,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Arduino_UNO_R3"
+		(property "Value" "SEMDUINO_V2"
 			(at 200.3141 72.39 0)
 			(effects
 				(font
